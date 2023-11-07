@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Hamzah Noer Arifin</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+
+	<!-- header -->
+	<div class="medsos">
+		<div class="container">
+			<ul>
+				<li><a href="#"><i class="fab fa-facebook"></i></a></li>
+				<li><a href="#"><i class="fab fa-instagram"></i></a></li>
+				<li><a href="#"><i class="fab fa-youtube"></i></a></li>
+			</ul>
+		</div>
+	</div>
+	<header>
+		<div class="container">
+		<img src="img/Logo.png" alt="Logo3" width="130" height="130">
+		<h1> <a href="index.html">HNA STORE</h1></a>
+		<ul>
+			<li><a href="index.html">HOME</a></li>
+			<li><a href="product.html">PRODUCT</a></li>
+			<li><a href="contact.html">CONTACT</a></li>
+			<li class="active"><a href="form.html">FORM</a></li>
+		</ul>
+		</div>
+	</header>
+	<!-- order -->
+	<section class="order">
+		<div class="container">
+			<h3>ORDER FORM</h3>
+			<table align="center" border="2">
+                <form method="get" action="form.html">
+                    <tr>
+                        <th align="left"><label for="Nama">Nama Lengkap :</label></th>
+                        <td colspan="4"><input type="text" name="Nama" value="" size="60" maxlength="60" required></td>
+                    </tr>
+                    <tr>
+                        <th align="left"><label for="Nomor">Nomor Telepon Whatsapp :</label></th>
+                        <td colspan="4"><input type="text" name="Nomor" value="" size="60" maxlength="60" required></td>
+                    </tr>
+                    <tr>
+                        <th align="left"><label for="Email">Email :</label></th>
+                        <td colspan="4"><input type="email" name="Email" value="" size="60" maxlength="60" required></td>
+                    </tr>
+                    <tr>
+                        <th align="Left">Alamat : </th>
+                        <td colspan="4"><textarea name="Alamat" cols="62" rows="5" required></textarea></td>
+                    </tr>
+                    <tr>
+                        <th align="left">Size :</th>
+                        <td colspan="4" ><input type="radio" name="Size" value="36">36
+                        <input type="radio" name="Size" value="37">37
+                        <input type="radio" name="Size" value="38">38
+                        <br><input type="radio" name="Size" value="39">39
+                        <input type="radio" name="Size" value="40">40
+                        <input type="radio" name="Size" value="41">41
+                        <br><input type="radio" name="Size" value="42">42
+                        <input type="radio" name="Size" value="43">43
+                        <input type="radio" name="Size" value="44">44</td>
+                    </tr>
+                    <tr>
+                        <th align="left">Tipe Sepatu :</th>
+                        <td colspan="4"><input type="checkbox" name="chk" value="Authentic">Authentic
+                        <input type="checkbox" name="chk" value="Era">Era
+                        <input type="checkbox" name="chk" value="Sk8-Hi">Sk8-Hi
+                        <br><input type="checkbox" name="chk" value="Old Skool">Old Skool 
+                        <input type="checkbox" name="chk" value="Checkerboard Slip-On">Checkerboard Slip-On 
+                        <input type="checkbox" name="chk" value="Slip-On">Slip-On</td> 
+                                              
+                    </tr>
+                    <tr>
+                        <td colspan="5">
+                        <button onclick="submit()"> Pesan</button>
+                        </td>
+                    </tr>
+                </form>
+            </table>
+		</div>
+        
+	</section>
+	<!-- footer -->
+	<footer>
+		<div class="container">
+			<small> Copyright &copy; 2022 - Hamzah Noer Arifin, All Rights Reserved.</small>
+		</div>
+	</footer>
+</body>
+</html>
